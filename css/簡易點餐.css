@@ -1,0 +1,23 @@
+.content{
+  margin: 0 auto;
+  height: 420px;
+  background-image: url(../../RWD/images/big.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+.content p{
+  text-align: center;
+  padding-top: 4em;
+}
+#hamNumId {
+  width: 50px;
+  border: 1px solid black;
+}
+#cokeNumId {
+  width: 50px;
+  border: 1px solid black;
+}
+.total {
+  font-size: 32px;
+}

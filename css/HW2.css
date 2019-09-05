@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.clearfix{
+  clear:both;
+}
+.wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  font-family: 'Arial','Microsoft YaHei','黑體','宋體','sans-serif';
+}
+.header {
+  background-image: url(../img/Hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 380px;
+	margin-bottom: 110px;
+}
+.header h1{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  padding-top: 2em;
+}
+.header .topmenu{
+  text-align: center;
+}
+.header .topmenu .areas{
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url(../img/icons_down.png) no-repeat right center transparent;
+  background-color: #b6bbbf;
+  width: 45%;
+  margin-top: 80px;
+  padding: 8px;
+  padding-right: 50px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+.header .hotmenu{
+  margin: auto;
+  width: 800px;
+  height: 100px;
+  background: white;
+  border-radius: 5px;
+  margin-top: 110px;
+
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.header .hotmenu h2{
+  padding-top: 15px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.header .hotmenu .button-group {
+  margin-left: 30px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.content .card{
+	margin-left: 6%;
+	margin-bottom: 10px;
+	float: left;
+	width: 40%;
+	height: 273px;
+	box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2);
+}
+.content .card .title{
+	margin-top: 130px;
+	margin-left: 20px;
+	color:white;
+	font-weight: bold;
+}
+.content .card-group{
+	margin-left: 30px;
+}
+.content .card-clock{
+	list-style-image: url(../img/icons_clock.png);
+	font-size: 14px;
+  margin-top: 20px;
+}
+.content .card-position{
+	list-style-image: url(../img/icons_pin.png);
+	font-size: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.content .card-phone{
+	list-style-image: url(../img/icons_phone.png);
+	font-size: 14px;
+}

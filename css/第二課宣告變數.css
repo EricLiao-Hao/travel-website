@@ -1,0 +1,9 @@
+.content{
+  text-align: center;
+  background: gray;
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  color : white;
+}
